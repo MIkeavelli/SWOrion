@@ -1,0 +1,22 @@
+=Ver: 2.0
+##----------------------------------------
+=Pkg: swiagent 1.6.0.1652 765482 i386
++Dir:
+/ 0 37139 0 14
+etc/ 0 12 0 2
+etc/init.d/ 12 0 2 0
+opt/ 0 37123 0 8
+opt/SolarWinds/ 0 37123 0 8
+opt/SolarWinds/Agent/ 0 37123 0 8
+opt/SolarWinds/Agent/bin/ 15109 22014 2 6
+opt/SolarWinds/Agent/bin/Plugins/ 2 22012 2 4
+opt/SolarWinds/Agent/bin/Plugins/Discovery/ 13380 0 2 0
+opt/SolarWinds/Agent/bin/Plugins/JobEngine/ 8632 0 2 0
+usr/ 0 4 0 4
+usr/lib/ 0 4 0 4
+usr/lib/initscripts/ 0 2 0 2
+usr/lib/initscripts/legacy-actions/ 0 2 0 2
+usr/lib/initscripts/legacy-actions/swiagentd/ 2 0 2 0
+usr/lib/systemd/ 0 2 0 2
+usr/lib/systemd/system/ 2 0 2 0
+-Dir:

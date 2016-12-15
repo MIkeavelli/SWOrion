@@ -1,0 +1,12 @@
+PRODUCT SolarWinds-Orion-Agent-repository
+VERSION 1.6
+LABEL Orion Agent
+VENDOR SolarWinds
+LABEL Orion Agent
+ARCH.i386 i386
+DEFAULTBASE i386
+DESCRDIR setup/descr
+DATADIR .
+META SHA1 9679ceeb4d1ac70bf3d857b80f6fe1c6002b9964  packages
+META SHA1 6ad538d0bad1fc5666c90ca32927684f846126b8  packages.DU
+META SHA1 588d67640b58d9c582f217d2bfee38beceae0193  packages.en

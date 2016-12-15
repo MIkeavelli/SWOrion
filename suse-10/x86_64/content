@@ -1,0 +1,12 @@
+PRODUCT SolarWinds-Orion-Agent-repository
+VERSION 1.6
+LABEL Orion Agent
+VENDOR SolarWinds
+LABEL Orion Agent
+ARCH.x86_64 x86_64
+DEFAULTBASE x86_64
+DESCRDIR setup/descr
+DATADIR .
+META SHA1 10bddaa722a4280ae8943288dd20c16fdcd92d03  packages
+META SHA1 53e0c545e55647b44d9f52f03af96b0b9f7763e8  packages.DU
+META SHA1 1090dc016914ae936989e890b372aa8f77aeb833  packages.en

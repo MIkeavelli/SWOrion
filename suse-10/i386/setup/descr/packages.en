@@ -1,0 +1,13 @@
+=Ver: 2.0
+##----------------------------------------
+=Pkg: swiagent 1.6.0.1652 765482 i386
+=Sum: SolarWinds Agent for the Orion Platform
++Des:
+This package provides the Agent service in support of SolarWinds Orion platform based products.
+
+Exclusiveos: linux
+
+Requires(pre): /usr/sbin/useradd, /usr/sbin/usermod, /usr/sbin/groupadd, /usr/bin/getent, chkconfig, initscripts
+Requires(post): /usr/sbin/userdel, /usr/sbin/groupdel
+Requires(preun): chkconfig, initscripts
+-Des:

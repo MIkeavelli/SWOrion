@@ -1,0 +1,58 @@
+=Ver: 2.0
+##----------------------------------------
+## -d ./docker/centos-5.11/dists/suse-10/x86_64 -o ./docker/centos-5.11/dists/suse-10/x86_64/setup/descr
+##----------------------------------------
+=Pkg: swiagent 1.6.0.1652 765482 x86_64
++Req:
+/bin/bash
+/bin/sh
+/bin/sh
+/bin/sh
+/bin/sh
+/bin/sh
+ld-linux-x86-64.so.2()(64bit)
+ld-linux-x86-64.so.2(GLIBC_2.3)(64bit)
+libc.so.6()(64bit)
+libc.so.6(GLIBC_2.2.5)(64bit)
+libc.so.6(GLIBC_2.3)(64bit)
+libc.so.6(GLIBC_2.3.2)(64bit)
+libdl.so.2()(64bit)
+libdl.so.2(GLIBC_2.2.5)(64bit)
+libm.so.6()(64bit)
+libm.so.6(GLIBC_2.2.5)(64bit)
+libpthread.so.0()(64bit)
+libpthread.so.0(GLIBC_2.2.5)(64bit)
+libpthread.so.0(GLIBC_2.3.2)(64bit)
+librt.so.1()(64bit)
+librt.so.1(GLIBC_2.2.5)(64bit)
+librt.so.1(GLIBC_2.3.3)(64bit)
+rpmlib(CompressedFileNames) <= 3.0.4-1
+rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+-Req:
++Prq:
+/bin/sh
+/bin/sh
+/bin/sh
+/bin/sh
+rpmlib(CompressedFileNames) <= 3.0.4-1
+rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+-Prq:
++Prv:
+swiagent = 1.6.0.1652-765482
+/etc/init.d/swiagentd
+/etc/init.d/swiagentd.update
+/opt/SolarWinds/Agent/bin/Plugins/Discovery.Agent.plugin
+/opt/SolarWinds/Agent/bin/Plugins/Discovery/SolarWinds.Agent.Discovery.Plugin
+/opt/SolarWinds/Agent/bin/Plugins/Discovery/SolarWinds.Agent.Discovery.Plugin.cfg
+/opt/SolarWinds/Agent/bin/Plugins/JobEngine.Agent.plugin
+/opt/SolarWinds/Agent/bin/Plugins/JobEngine/SolarWinds.Agent.JobEngine.Plugin
+/opt/SolarWinds/Agent/bin/Plugins/JobEngine/SolarWinds.Agent.JobEngine.Plugin.cfg
+/opt/SolarWinds/Agent/bin/swiagent
+/opt/SolarWinds/Agent/bin/swiagent.template.cfg
+-Prv:
+=Grp: SolarWinds
+=Lic: Commercial
+=Src: swiagent 1.6.0.1652 765482 src
+=Tim: 1475681482
+=Loc: 1 swiagent-1.6.0.1652-765482-suse-10.0-x64.rpm
+=Siz: 14059961 36416249
